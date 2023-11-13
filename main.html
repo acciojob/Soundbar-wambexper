@@ -7,6 +7,17 @@
 </head>
 
 <body>
+
+	<section id="buttons" class="buttons-container">
+		<button class="btn" onclick="playAudio('applause.mp3')">applause</button>
+		<button class="btn" onclick="playAudio('boo.mp3')">boo</button>
+		<button class="btn" onclick="playAudio('gasp.mp3')">gasp</button>
+		<button class="btn" onclick="playAudio('tada.mp3')">tada</button>
+		<button class="btn" onclick="playAudio('victory.mp3')">victory</button>
+		<button class="btn" onclick="playAudio('wrong.mp3')">wrong</button>
+		<button class="btn stop" onclick="stopAudio()">stop</button>
+	</section>
+	<audio id="audioPlayer" controls></audio>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
